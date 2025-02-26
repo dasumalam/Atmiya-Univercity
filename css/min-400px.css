@@ -1,0 +1,174 @@
+@media (min-width: 400px) {
+  header .header-center nav,
+  header .header-top nav {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    gap: 0;
+  }
+  header .header-top nav ul,
+  header .header-center nav ul {
+    flex-direction: column;
+  }
+  .main .add-section img {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+  }
+  
+  .main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+   }
+  .main .card-section .cards {
+    row-gap: 30px;
+    align-items: center;
+    justify-content: center;
+   }
+
+  .main .add-section img {
+    height: 300px;
+    width: 350px;
+  }
+  .updates .announcement .notes .note {
+    width: 350px;
+  }
+   .updates{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .updates .announcement h1::before {
+  width: 80%;
+  top: 5%;
+  left: 10%;
+  }
+
+  .updates .news .result {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .updates .news .result img {
+    height: 450px;
+    width: 300px;
+    padding: 0px 0px;
+  }
+  
+  .updates .news h1::after {
+    content: "";
+    height: 1px;
+    width: 79%;
+    top: 42%;
+    right: 11%;
+    background-color: var(--icon-primary-color);
+    position: absolute;
+  }
+  
+  .updates .news::before{
+       display: none;
+  }
+  .updates .news h1{
+    margin-left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .updates .news .result{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .our .quotes {
+    flex-direction: row;
+    gap: 10px;
+    column-gap: 5px;
+  }
+
+  .faculties h1 {
+    text-align: center;
+  }
+  .faculties .faculties-menu {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+.faculties .faculties-menu .plying-card h4 {
+  text-align: center;
+  
+}
+.approvals{
+align-items: center;
+flex-wrap: wrap;
+justify-content: center;
+}
+.approvals .image{
+  flex-direction: row;
+}
+.approvals h1{
+  width: 100%;
+  font-size: 22px;
+  text-align: center;
+  margin-top: 2px;
+}
+.approvals h1::after{
+  display: none;
+}
+.approvals img{
+  height: 70px;
+  width: 70px;
+}
+.membership{
+  flex-wrap: wrap;
+  justify-content: center ;
+ 
+}
+.membership img {
+  height: 70px;
+  width: 70px;
+}
+.membership h1::before{
+height: 0;
+width: 0;
+}
+.membership h1{
+  display: none ;
+}
+.national h3 {
+width: 100%;
+  font-size: 22px;
+  text-align: center;
+  margin-top: 2px;
+}
+.national h3::after{
+  display: none;
+}
+.national img {
+  height: 70px;
+  width: 70px;
+}
+.awards-accolades {
+  gap: 10px;
+}
+
+.awards-accolades h1 {
+  top: 30px;
+  left: 15px;
+ text-align: center;
+}
+.awards-accolades h1::after{
+  display: none;
+}
+.awards {
+  gap: 25px;
+}
+
+footer {
+    justify-content: flex-start;
+}
+}

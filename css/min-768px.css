@@ -1,0 +1,55 @@
+@media (min-width: 768px) {
+  header .header-center nav,
+  header .header-top nav {
+    display: flex;
+    flex-direction: row;
+    position: static;
+  }
+  header .header-center i,
+  header .header-top i {
+    display: none;
+  }
+  header .header-top nav ul,
+  header .header-center nav ul {
+    flex-direction: row;
+  }
+  header .header-top,
+  header .header-center {
+    font-size: 10px;
+  }
+  header .header-top nav,
+  header .header-center nav {
+    display: flex;
+    gap: 10px;
+  }
+  .main .card-section .cards {
+    gap: 50px;
+  }
+  .main .add-section img {
+    height: 350px;
+    width: 500px;
+  }
+  .updates .announcement h1::before {
+    width: 50%;
+    top: 5%;
+    left: 25%;
+  }
+  .updates .news h1::after {
+    top: 43%;
+    width: 50%;
+    right: 25%;
+  }
+  .our .quotes {
+    flex-direction: row;
+    gap: 20px;
+    column-gap: 10px;
+  }
+  .faculties .faculties-menu {
+    flex-direction: row;
+    gap: 100px;
+    row-gap: 50px;
+  }
+  footer {
+    justify-content: space-evenly;
+  }
+}

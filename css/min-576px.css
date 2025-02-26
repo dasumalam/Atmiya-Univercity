@@ -1,0 +1,39 @@
+@media (min-width: 576px) {
+   
+    .main .add-section  {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+      
+  .main{
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  
+  .updates .news h1::after{
+    top: 42.5%;
+    width: 65%;
+    right: 18%;
+
+  }
+  .approvals img{
+    height: 90px;
+    width: 90px;
+  }
+  .membership{
+    height: 290px;
+    gap:25px;
+  }
+   .membership img {
+    height: 100px;
+    width: 100px;
+  }
+  .national img {
+    height: 100px;
+    width: 100px;
+   }
+  footer {
+    justify-content:space-evenly;
+}
+}
